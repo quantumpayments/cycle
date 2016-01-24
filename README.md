@@ -19,9 +19,12 @@ a post insert hook will check that the webid balance is not above a certain thre
 
 # implementation
 
+
     THRESHOLD=25
+    AMOUNT=5
+    credit insert $WORKBOT $AMOUNT '' $WEBID work 
     BALANCE=$(credit balance $WEBID)
-    if [ $BALANCE -gt $THRESHOLD ]
+    if [[ $BALANCE -gt $THRESHOLD ]]
     then
       credit insert $WORKBOT $THRESHOLD '' $WEBID
     fi
