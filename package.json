@@ -1,0 +1,28 @@
+{
+  "name": "qpm_cycle",
+  "version": "0.0.2",
+  "description": "quantum payment cycle",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quantumpayments/cycle.git"
+  },
+  "keywords": [
+    "payments"
+  ],
+  "author": "Melvin Carvalho <melvincarvalho@gmail.com> (https://melvincarvalho.com/#me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/quantumpayments/cycle/issues"
+  },
+  "homepage": "https://github.com/quantumpayments/cycle#readme",
+  "dependencies": {
+    "webcredits": "^0.1.5"
+  }
+}
