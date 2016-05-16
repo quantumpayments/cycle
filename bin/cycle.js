@@ -49,7 +49,7 @@ function createCredit(source, amount, currency, destination) {
 
 
 var credit1 = createCredit(source, amount, currency, destination)
-var credit1 = createCredit(destination, threshold, currency, source)
+var credit2 = createCredit(destination, threshold, currency, source)
 
 
 wc.insert(credit1, sequelize, config, function(err, res) {

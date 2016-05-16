@@ -1,6 +1,6 @@
 {
   "name": "qpm_cycle",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "quantum payment cycle",
   "main": "index.js",
   "directories": {
